@@ -52,7 +52,6 @@
       <property name="hibernate.connection.username" value="igete"/>
       <property name="hibernate.connection.password" value="1g3t3c4578iuqpewouj12475674jldfop"/>
       
-      
       <!--
         <property name="hibernate.connection.username" value="USUARIO"/>
         <property name="hibernate.connection.password" value="SENHA"/>
