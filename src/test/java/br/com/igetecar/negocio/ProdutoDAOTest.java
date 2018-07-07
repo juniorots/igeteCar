@@ -50,12 +50,19 @@ public class ProdutoDAOTest {
       Produto prod = new Produto();    
       ProdutoDAO dao = new ProdutoDAO(entityManager);
 //      
-      prod.setSrcImagem("tmp/img-286x215-1.jpg");
-      prod.setSrcImagemModal("tmp/img-640x480-1.jpg");
-      prod.setTitulo("Produto 01");
-      prod.setDescritivo("Descritivo 01");
+      prod.setSrcImagem("tmp/igeteFigura01_286x215.png");
+      prod.setSrcImagemModal("tmp/igeteFigura01_640x480.png");
+      prod.setTitulo("Operação Igete");
+      prod.setDescritivo("Dia de manutenção");
       prod.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
       dao.insert(prod);      
+      
+//      prod.setSrcImagem("tmp/img-286x215-1.jpg");
+//      prod.setSrcImagemModal("tmp/img-640x480-1.jpg");
+//      prod.setTitulo("Produto 01");
+//      prod.setDescritivo("Descritivo 01");
+//      prod.setTipo(EnumTipoProduto.PRODUTO_DESTAQUE.getTipo());
+//      dao.insert(prod);      
       
       Produto prod2 = new Produto();   
       
