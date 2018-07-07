@@ -27,11 +27,11 @@
       <!-- 
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect"/>
       <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+       -->
       
       <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/igetecar"/>
       <property name="hibernate.connection.username" value="igete"/>
       <property name="hibernate.connection.password" value="ablife"/>
-       -->
       
       <!--
       <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
@@ -45,11 +45,11 @@
        -->
        
       <!-- Postgres - REMOTO 
-      -->
       <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
       <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect"/>
+      -->
       
-      <property name="hibernate.connection.url" value="jdbc:postgresql://igetecar.com.br:5432/igetecar"/>
+      <property name="hibernate.connection.url" value="jdbc:postgresql://45.62.231.8:5432/igetecar"/>
       <property name="hibernate.connection.username" value="igete"/>
       <property name="hibernate.connection.password" value="1g3t3c4578iuqpe"/>
       
