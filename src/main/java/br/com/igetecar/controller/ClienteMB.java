@@ -130,7 +130,7 @@ public class ClienteMB implements Serializable {
     public void enviarNotificacao() {
     	
     	if (bloquearEnvioNotificacao( getCliente() )) {
-    		Util.montarMensagem(FacesMessage.SEVERITY_INFO, "É necessário preencher todos os campos.");
+    		Util.montarMensagem(FacesMessage.SEVERITY_INFO, "É necessário preencher todos os campos");
     		return;
     	}
     	
@@ -148,13 +148,11 @@ public class ClienteMB implements Serializable {
         }
         
         ArrayList emails = new ArrayList();
-        emails.add("walkiriariussbfm@gmail.com");
-        emails.add("walkiriarius1@gmail.com");
-        emails.add("walkiriarius@sarabrasilfm.com");
+//        emails.add("marcondes@gmail.com");
         
-        EnviarEmail.tratarEnvio(emails, "Notificação de usuário - igetecar", getCliente().getMensagem(), getCliente().getNome(), getCliente().getEmail());
+        EnviarEmail.tratarEnvio(emails, "Notificação de usuário - IGETE CAR", getCliente().getMensagem(), getCliente().getNome(), getCliente().getEmail());
         
-        Util.montarMensagemModal(FacesMessage.SEVERITY_INFO, "Notificação enviada com sucesso", "Relaxe, em breve lhe daremos uma resposta!");        
+        Util.montarMensagem(FacesMessage.SEVERITY_INFO, "Relaxe, em breve lhe daremos uma resposta!");        
     }
     
     /**
