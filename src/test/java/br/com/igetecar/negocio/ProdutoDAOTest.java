@@ -33,11 +33,11 @@ public class ProdutoDAOTest {
     public void tearDown() {
     }
 
-//  @Test
+  @Test
   public void example() {
   }
     
-  @Test
+//  @Test
   public void mainTest() {
 	  
 	  @Cleanup
